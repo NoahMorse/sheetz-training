@@ -24,16 +24,3 @@ headers = {
 
 ip_dictionary = {}
 ip_list = []
-
-with open("network_traffic.json") as file:
-    data = json.load(file)
-
-for entry in data:
-    ip_list.append(entry["source_ip"])
-  
-print(ip_list)
-    
-
-
-# response = requests.request("GET", url, headers=headers, params=payload)
-# print(response.text)
