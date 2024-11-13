@@ -1,0 +1,47 @@
+# Comment: Appliction configurations
+---
+app:
+  name: MyApp
+  version: 1.0.0
+  environment: production
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    certificate_path: /etc/ssl/certs/myapp.crt
+    key_path: /etc/ssl/private/myapp.key
+
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  name: myapp_db
+  user: dbuser
+  password: dbpassword
+  pool_size: 10
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    - console
+    - file
+  file:
+    path: /var/log/myapp.log
+    max_size: 10MB
+    backup_count: 5
+
+features:
+  authentication: true
+  caching: true
+  rate_limiting: false
+
+email:
+  smtp_server: smtp.example.com
+  port: 587
+  use_tls: true
+  username: emailuser
+  password: emailpassword
+  from_address: no-reply@example.com

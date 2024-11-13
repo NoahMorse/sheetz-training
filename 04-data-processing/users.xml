@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<users>
+    <user>
+        <id>1</id>
+        <username>johndoe</username>
+        <email>johndoe@example.com</email>
+        <profile>
+            <first_name>John</first_name>
+            <last_name>Doe</last_name>
+            <age>30</age>
+            <gender>male</gender>
+            <address>
+                <street>123 Main St</street>
+                <city>Anytown</city>
+                <state name="California">CA</state>
+                <zip>12345</zip>
+            </address>
+        </profile>
+        <preferences>
+            <newsletter>true</newsletter>
+            <notifications>
+                <email>true</email>
+                <sms>false</sms>
+            </notifications>
+        </preferences>
+    </user>
+    <user>
+        <id>2</id>
+        <username>janesmith</username>
+        <email>janesmith@example.com</email>
+        <profile>
+            <first_name>Jane</first_name>
+            <last_name>Smith</last_name>
+            <age>25</age>
+            <gender>female</gender>
+            <address>
+                <street>456 Elm St</street>
+                <city>Othertown</city>
+                <state name="New York">NY</state>
+                <zip>67890</zip>
+            </address>
+        </profile>
+        <preferences>
+            <newsletter>false</newsletter>
+            <notifications>
+                <email>true</email>
+                <sms>true</sms>
+            </notifications>
+        </preferences>
+    </user>
+    <user>
+        <id>3</id>
+        <username>bobjohnson</username>
+        <email>bobjohnson@example.com</email>
+        <profile>
+            <first_name>Bob</first_name>
+            <last_name>Johnson</last_name>
+            <age>40</age>
+            <gender>male</gender>
+            <address>
+                <street>789 Oak St</street>
+                <city>Sometown</city>
+                <state name="Texas">TX</state>
+                <zip>54321</zip>
+            </address>
+        </profile>
+        <preferences>
+            <newsletter>true</newsletter>
+            <notifications>
+                <email>false</email>
+                <sms>true</sms>
+            </notifications>
+        </preferences>
+    </user>
+    <user>
+        <id>4</id>
+        <username>alicebrown</username>
+        <email>alice.brown@example.com</email>
+        <profile>
+            <first_name>Alice</first_name>
+            <last_name>Brown</last_name>
+            <age>28</age>
+            <gender>female</gender>
+            <address>
+                <street>321 Pine St</street>
+                <city>Newcity</city>
+                <state name="Florida">FL</state>
+                <zip>98765</zip>
+            </address>
+        </profile>
+        <preferences>
+            <newsletter>false</newsletter>
+            <notifications>
+                <email>true</email>
+                <sms>false</sms>
+            </notifications>
+        </preferences>
+    </user>
+</users>

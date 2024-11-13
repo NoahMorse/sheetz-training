@@ -1,0 +1,1 @@
+#We will be runnning a tournament on the SJ platform
