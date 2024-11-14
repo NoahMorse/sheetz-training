@@ -27,6 +27,12 @@ Write a script that calls 5 unique functions. Here's what each function should d
       - Should print out the following:
           "The weekly pay for <name> is $<amount>."
 
+Make sure every function:
+    1. Is called when expected
+    2. Returns the expected values, and the correct number of values
+    3. Uses the expected logic
+    Note: Some functions are either fully completed, partially completed, or incomplete. 
+
 """
 
 

@@ -8,7 +8,7 @@ def factorial(n):
         return 1
     else:
         result = 1
-        for i in range(n):
+        for i in range(1,n):
             result *= i  
         return result
 
